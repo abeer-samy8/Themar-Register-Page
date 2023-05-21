@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ثمار | تسجيل جديد</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Roboto:wght@100&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body style="overflow: auto">
+    <div class="container-page justify-content-start">
+      <!-- start sidebar-wrapper -->
+      <div class="sidebar-wrapper">
+        <nav
+          class="navbar navbar-expand-md navbar-light flex-column align-items-start">
+          <!-- logo div -->
+          <div>
+            <a class="navbar-brand" href="https://beta2030.themar.sa/home_page">
+              <img
+                src="https://beta2030.themar.sa/assets/img/logo.png"
+                class="d-inline-block img-fluid"
+                alt="logo" />
+            </a>
+          </div>
+          <!-- end div logo -->
+
+          <!-- buttons div -->
+          <div class="main-links" style="margin-top: 40px">
+            <div class="link">
+              <a href="#">استثمر</a>
+            </div>
+            <div class="link" style="background-color: #26b195">
+              <a href="#">موّل مشترياتك </a>
+            </div>
+            <!-- <img
+              src="https://beta2030.themar.sa/assets/img/arrow-sm.png"
+              class="img-fluid mx-2 rotate-180"
+              alt="arrow" /> -->
+          </div>
+          <!--end buttons div -->
+
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <div class="hold-navv">
+              <ul class="p-0">
+                <div class="nav-item has-childrin dropdown">
+                  <a class="nav-link" data-toggle="dropdown">
+                    عن ثمار
+                    <img
+                      onclick="toggleDropdown()"
+                      src="https://beta2030.themar.sa/assets/img/arrow-sm.png"
+                      class="img-fluid mx-2 rotate-180"
+                      alt="arrow" />
+                  </a>
+              <!-- start dropdown -->
+
+                  <ul id="dropdownMenu">
+                    <li class="">
+                      <a
+                        href="https://beta2030.themar.sa/page/about_us"
+                        class="nav-link"
+                        >معلومات عنا</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="https://beta2030.themar.sa/page/sharia_compliant"
+                        class="nav-link"
+                        >متوافقة مع الشريعة</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="https://beta2030.themar.sa/pages/media_center"
+                        class="nav-link"
+                        >مركز الوسائط</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="https://beta2030.themar.sa/pages/reports"
+                        class="nav-link"
+                        >التقارير</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="https://beta2030.themar.sa/pages/join_us"
+                        class="nav-link"
+                        >انضم إلى ثمار</a
+                      >
+                    </li>
+                  </ul>
+                  <!-- end dropdown -->
+                </div>
+
+                <li class="nav-item">
+                  <a
+                    href="https://beta2030.themar.sa/page/purchase_financing"
+                    class="nav-link"
+                    >تمويل المشتريات</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    href="https://beta2030.themar.sa/page/credit_risk"
+                    class="nav-link"
+                    >التصنيف الائتماني</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="https://beta2030.themar.sa/blog" class="nav-link"
+                    >المدونة</a>
+                </li>
+              </ul>
+
+              <div class="login"  >
+                <a href="https://beta2030.themar.sa/borrower/login"
+                class="mainColor" style=" font-size: 16px !important;"
+                  >تسجيل الدخول</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- end sidebar-wrapper -->
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script>
+      function toggleDropdown() {
+        var dropdown = document.querySelector(".dropdown");
+        dropdown.classList.toggle("open");
+      }
+    </script>
+  </body>
+</html>
