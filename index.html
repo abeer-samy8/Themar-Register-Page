@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
     <title>ثمار | تسجيل جديد</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -23,20 +27,18 @@
           <!-- logo div -->
           <div>
             <a class="navbar-brand" href="https://beta2030.themar.sa/home_page">
-              <img
-                src="https://beta2030.themar.sa/assets/img/logo.png"
-                class="d-inline-block img-fluid"
+              <img src="https://beta2030.themar.sa/assets/img/logo.png" class="d-inline-block img-fluid"
                 alt="logo" />
             </a>
           </div>
           <!-- end div logo -->
 
           <!-- buttons div -->
-          <div class="main-links" style="margin-top: 40px">
-            <div class="link">
+          <div class="buttons" style="margin-top: 40px">
+            <div class="btn">
               <a href="#">استثمر</a>
             </div>
-            <div class="link" style="background-color: #26b195">
+            <div class="btn" style="background-color: #26b195">
               <a href="#">موّل مشترياتك </a>
             </div>
             <!-- <img
@@ -47,8 +49,8 @@
           <!--end buttons div -->
 
           <div class="collapse navbar-collapse" id="mainNavbar">
-            <div class="hold-navv">
-              <ul class="p-0">
+            <div class="navv">
+              <ul style="padding: 0;">
                 <div class="nav-item has-childrin dropdown">
                   <a class="nav-link" data-toggle="dropdown">
                     عن ثمار
@@ -60,43 +62,26 @@
                   </a>
               <!-- start dropdown -->
 
-                  <ul id="dropdownMenu">
-                    <li class="">
-                      <a
-                        href="https://beta2030.themar.sa/page/about_us"
-                        class="nav-link"
-                        >معلومات عنا</a
-                      >
-                    </li>
-                    <li class="">
-                      <a
-                        href="https://beta2030.themar.sa/page/sharia_compliant"
-                        class="nav-link"
-                        >متوافقة مع الشريعة</a
-                      >
-                    </li>
-                    <li class="">
-                      <a
-                        href="https://beta2030.themar.sa/pages/media_center"
-                        class="nav-link"
-                        >مركز الوسائط</a
-                      >
-                    </li>
-                    <li class="">
-                      <a
-                        href="https://beta2030.themar.sa/pages/reports"
-                        class="nav-link"
-                        >التقارير</a
-                      >
-                    </li>
-                    <li class="">
-                      <a
-                        href="https://beta2030.themar.sa/pages/join_us"
-                        class="nav-link"
-                        >انضم إلى ثمار</a
-                      >
-                    </li>
-                  </ul>
+              <div class="alldropdown" >
+                <ul id="dropdownMenu" class="dropMenu">
+                  <li>
+                    <a href="https://beta2030.themar.sa/page/about_us" class="nav-link">معلومات عنا</a>
+                  </li>
+                  <li>
+                    <a href="https://beta2030.themar.sa/page/sharia_compliant" class="nav-link">متوافقة مع الشريعة</a>
+                  </li>
+                  <li>
+                    <a href="https://beta2030.themar.sa/pages/media_center" class="nav-link">مركز الوسائط</a>
+                  </li>
+                  <li>
+                    <a href="https://beta2030.themar.sa/pages/reports" class="nav-link">التقارير</a>
+                  </li>
+                  <li>
+                    <a href="https://beta2030.themar.sa/pages/join_us" class="nav-link">انضم إلى ثمار</a>
+                  </li>
+                </ul>
+              </div>
+              
                   <!-- end dropdown -->
                 </div>
 
@@ -112,8 +97,7 @@
                   <a
                     href="https://beta2030.themar.sa/page/credit_risk"
                     class="nav-link"
-                    >التصنيف الائتماني</a
-                  >
+                    >التصنيف الائتماني</a>
                 </li>
 
                 <li class="nav-item">
@@ -133,7 +117,275 @@
       </div>
       <!-- end sidebar-wrapper -->
 
+      <!-- start content  -->
+      <div class="content">
+        <div class="w-100">
+          <div class="main-container">
+          <h2 class="main-title">موّل مشترياتك (للمنشآت)</h2>
+
+
+          <div class=" d-flex flex-column justify-content-center align-items-center mt-4 mb-4">
+
+            <h4>تسجيل مستخدم جديد</h4>
+
+            <div class="account">
+              <span>لديك حساب؟</span>
+              <span class="signin"> <a href="https://beta2030.themar.sa/borrower/login"
+                  style="color: inherit;" >قم بستجيل الدخول</a>
+              </span>
+            </div>
+          </div>
+
+          <!-- start stepper -->
+
+          <div class="my-stpper-container">
+       
+            <div class="stepper-container">
+              <div class="step step-1 current-step">
+                <div class="step-num">1</div>
+                <div class="step-circle">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M21 6.99984L9 18.9998L3.5 13.4998L4.91 12.0898L9 16.1698L19.59 5.58984L21 6.99984Z"
+                      fill="white"></path>
+                  </svg>
+                </div>
+                <div class="step-title">إعداد الحساب</div>
+              </div>
+              <div class="step-line"></div>
+              <div class="step step-2">
+                <div class="step-num">2</div>
+                <div class="step-circle">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M21 6.99984L9 18.9998L3.5 13.4998L4.91 12.0898L9 16.1698L19.59 5.58984L21 6.99984Z"
+                      fill="white"></path>
+                  </svg>
+                </div>
+                <div class="step-title">بيانات المنشأة</div>
+              </div>
+              <div class="step-line"></div>
+              <div class="step step-3">
+                <div class="step-num">3</div>
+                <div class="step-circle">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M21 6.99984L9 18.9998L3.5 13.4998L4.91 12.0898L9 16.1698L19.59 5.58984L21 6.99984Z"
+                      fill="white"></path>
+                  </svg>
+                </div>
+                <div class="step-title">التحقق من الهوية</div>
+              </div>
+              <div class="step-line"></div>
+              <div class="step step-4">
+                <div class="step-num">4</div>
+                <div class="step-circle">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M21 6.99984L9 18.9998L3.5 13.4998L4.91 12.0898L9 16.1698L19.59 5.58984L21 6.99984Z"
+                      fill="white"></path>
+                  </svg>
+                </div>
+                <div class="step-title">بيانات صاحب الصلاحية في المنشأة</div>
+              </div>
+              <div class="step-line"></div>
+              <div class="step step-5">
+                <div class="step-num">5</div>
+                <div class="step-circle">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M21 6.99984L9 18.9998L3.5 13.4998L4.91 12.0898L9 16.1698L19.59 5.58984L21 6.99984Z"
+                      fill="white"></path>
+                  </svg>
+                </div>
+                <div class="step-title">إرسال رمز التحقق</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- end stepper -->
+
+          <!-- start form -->
+          <form 
+          class=" register-form d-flex flex-column align-items-center justify-content-center ">
+            <input type="hidden"/>
+            <div class="form-group">
+              <label class="mr-1" for="id">الرقم الوطني الموحد للمنشأة (700)</label>
+              <input title=""type="text"class="form-control"name="cr_entity_number"id="cr_entity_number"
+                value="" required=""placeholder="الرقم الوطني الموحد للمنشأة" />
+            </div>
+
+            <div class="form-group">
+              <label class="mr-1" for="id">البريد الالكتروني </label>
+              <input title=""type="text"class="form-control"name="email"id="email"
+                value="" required=""placeholder="email@example.com" />
+            </div>
+
+            <div class="form-group">
+              <label class="mr-1" for="id"> عدد السنوات منذ إنشاء الشركة </label>
+              <input title=""type="text"class="form-control"name="years"id="years"
+                value="" required=""placeholder="عدد السنوات منذ إنشاء الشركة" />
+            </div>
+
+            <div class="form-group">
+              <label class="mr-1" for="id"> كلمة المرور </label>
+              <input title=""type="password"class="form-control"name="password"id="password"
+                value="" required=""placeholder="كلمة المرور  " />
+            </div>
+
+        
+
+            <div class="form-group">
+              <label class="mr-1" for="id"> اعادة كلمة المرور </label>
+              <input title=""type="password"class="form-control"name="re-password"id="re-password"
+                value="" required=""placeholder="اعادة كلمة المرور  " />
+            </div>
+
+
+            <div class="form-group">
+              <div style="margin-bottom: 1rem" class="captcha">
+                <label class="mr-1 d-block mb-4">أدخل رمز التحقق كما يظهر في الصورة أدناه</label>
+                <span class="captcha-span border-0"
+                  style="display: inline-block; margin-left: 1rem">
+                  <img src="https://beta2030.themar.sa/captcha/default?xnEZ1F5m"/></span>
+                <button type="button"  class="btn btn-outline-info">
+                  <img src="https://beta2030.themar.sa/assets/icons/rotate-left (1).svg"
+                  width="24px"height="24px" />
+                </button>
+              </div> 
+              <input name="captcha" id="captcha" type="text" class="form-control" />
+            </div>
+
+            <div class="d-flex align-items-start checkbox-container">
+              <input type="checkbox"  class="checkbox" name="terms_and_conditions" />
+              <label class="text-sm">
+                أقر بالقراءة والموافقة على جميع الشروط والأحكام الخاصة بمنصة
+                ثمار
+                <a href="https://beta2030.themar.sa/pages/policy"
+                  target="_blank" class="d-block checkbox-span">سياسة الاستخدام والخصوصية</a>
+              </label>
+            </div>
+            
+            <div class="next-btn" style="margin: 40px 0; display: flex;">
+              <a href="" class="btn-submit " >التالي</a>
+            </div>
+
+          </form>
+          
+        </div>
+      <!-- end content -->
+
+      <!-- start footer -->
+        <section class="footer gray-bg" style="margin-top: auto;     background-color: #F7F7F7;">
+          <div class="footer-container ">
+            <div class="contact">
+              <div class="info">
+                <p>info@themar.sa</p>
+                <a href="https://beta2030.themar.sa/pages/contact" class="mainColor mx-3 mx-lg-5"
+                  >اتصل بنا</a>
+                <p>800-244-0205</p>
+              </div>
+
+              <div class="social-media">
+                <ul class="media">
+                  <li>
+                    <a href="https://twitter.com/FintechTHEMAR" class="link"target="_blank" ><i class="fab fa-twitter" style="color:black;"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@FintechTHEMAR/featured"class="link" target="_blank"
+                      ><i class="fab fa-youtube" style="color:black;"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://sa.linkedin.com/company/fintechthemar"  class="link" target="_blank"
+                      ><i class="fab fa-linkedin-in" style="color:black;"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div>
+              <div style="text-align: right"><b>تحذير المخاطر</b></div>
+              <div style="text-align: center">
+                  <div style="text-align: right">
+                    تقوم ثمار بدراسة وتقييم المشاريع الاستثمارية والمخاطر
+                    المرشح طرحها في المنصة ومدى ملاءمة المنشآت المستفيدة من
+                    التمويل , حيث إن ثمار تعمل ما يلزم للتأكد&nbsp; من صحة
+                    المعلومات المقدمة من الجهات الطالبة لتمويل مشترياتها لتكن
+                    متوافقة مع متطلبات البنك المركزي لبدء علاقة تعاقدية مالية.
+                    نود التنويه بأن عرضنا للمشاريع على منصة ثمار لا يعتبر
+                    نصيحة لتقديم التمويل والمشاركة في المشروع, حيث أن هذا
+                    النوع من المشاريع مهما كان فإنه يصنف كعالي المخاطر وقد
+                    يعرض المستثمر لخسارة رأس المال مع الأرباح. لذلك فأن اختيار
+                    المشاريع والمشاركة بها تقع مسؤوليتها على المستثمر المشارك.
+                  </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center" style="padding-bottom: 40px; padding-top: 30px;">
+              <div class="col-lg-6">
+                <p class="copyright">
+                  © جميع الحقوق محفوظة لشركة<a target="_blank" href="https://beta2030.themar.sa/pages/about_us" style="color: #333;
+                  text-decoration: none;">
+                    ثمار | </a>2023
+                </p>
+              </div>
+              <div class="col-lg-6">
+
+                <ul class="links-menu">
+                  <li>
+                    <a target="_blank" href="https://beta2030.themar.sa/faq"
+                      class="link">الأسئلة الشائعة</a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://beta2030.themar.sa/pages/General_terms_and_conditions_of_use"
+                      class="link">الشروط والأحكام</a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://beta2030.themar.sa/pages/policy"
+                      class="link"
+                      >سياسة الخصوصية</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end footer -->
+        </div>
+      </div>
     </div>
+      
+      
+
+
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -142,6 +394,25 @@
       function toggleDropdown() {
         var dropdown = document.querySelector(".dropdown");
         dropdown.classList.toggle("open");
+
+        // JavaScript code
+      const steps = document.querySelectorAll('.step');
+
+      // Add click event listener to each step
+      steps.forEach((step, index) => {
+        step.addEventListener('click', () => {
+          // Remove 'current-step' class from all steps
+          steps.forEach((step) => {
+            step.classList.remove('current-step');
+          });
+
+          // Add 'current-step' class to the clicked step and previous steps
+          for (let i = 0; i <= index; i++) {
+            steps[i].classList.add('current-step');
+          }
+        });
+      });
+
       }
     </script>
   </body>
